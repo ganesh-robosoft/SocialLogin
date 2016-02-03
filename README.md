@@ -18,10 +18,10 @@ This project will serve as a login to iOS apps. At present you can login with Fa
 
 	Add social login buttons as below:
 
-    [self addFacebookButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_facebook"]];   //For Facebook
-    [self addLinkedInButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_linkedin"]]; 	//For LinkedIn
-    [self addGooglePlusButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_google"]];	//For Google
-    [self addTwitterButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_twitter"]];		//For Twitter
+    		[self addFacebookButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_facebook"]];   //For Facebook
+    		[self addLinkedInButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_linkedin"]]; 	//For LinkedIn
+    		[self addGooglePlusButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_google"]];	//For Google
+    		[self addTwitterButtonAtFrame:theRect withImage:[UIImage imageNamed:@"login_button_twitter"]];		//For Twitter
 
 Note: For SignIn with Google, add GoogleService-Info.plist to your bundle also add REVERSED_CLIENT_ID (found in GoogleService-Info.plist)
  to URL Schemes in Target->URL Types.
